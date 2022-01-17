@@ -17,12 +17,12 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #a5b2c2;
-    margin: 50px 0 auto 0;
+    margin: 100px 0 auto 0;
 }
 
 h3{
     color: #a5b2c2;
-    margin: 50px auto 10px auto;
+    margin: 100px auto 20px auto;
 }
 
 p {
@@ -33,7 +33,7 @@ p {
 }
 
 hr{
-    margin: auto;
+    margin-top: 50px;
     width: 5%;
     border-top: dotted 5px;
     color: #a5b2c2;
@@ -89,26 +89,31 @@ a:hover{
     text-align: left;
 }
 
+
 .profile-img{
     width: 25%;
 }
 
 .napping-img{
-    width: 25%;
+    width: 20%;
     float: left;
     margin: auto 30px auto auto;
 }
 
 .climbing-img{
-    width: 25%;
+    width: 20%;
     float: right;
     margin: auto auto auto 30px;
 }
 
 .running-image{
-    width: 25%;
+    width: 20%;
     float: left;
     margin: auto 30px auto auto;
+}
+
+.lower-line{
+    margin-top: 250px;
 }
 
 .bottom-container{
