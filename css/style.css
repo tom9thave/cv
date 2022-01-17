@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    margin: 10px auto 0px auto;
+    color: #a5b2c2;
+    line-height: 0.5rem;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #a5b2c2;
+    margin: 50px auto auto auto;
+}
+
+h3{
+    color: #a5b2c2;
+    margin: 50px auto 10px auto;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin: auto auto 20px auto;
+    font-size: 1rem;
+}
+
+hr{
+    width: 5%;
+    border-top: dotted 5px;
+    color: #a5b2c2;
+}
+
+a{
+    font-weight: bold;
+    display: inline-block;
+    margin: auto 10px;
+    color: gainsboro;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+
+}
+
+.cat{
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+
+.top-container {
+    background-color:#F7F6F2;
+    padding: 30px;
+    position: relative;
+}
+
+.middle-container {
+    margin: 100px auto 100px auto;
+}
+
+.top-heart{
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+.profile{
+    margin: 50px auto 50px auto;
+}
+
+.bottom-heart {
+    position: absolute;
+    left: 300px;
+    bottom: 200px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.profile-img{
+    width: 25%;
+}
+
+.napping-img{
+    width: 25%;
+    float: left;
+    margin: auto 30px auto auto;
+}
+
+.climbing-img{
+    width: 25%;
+    float: right;
+    margin: auto auto auto 30px;
+}
+
+.running-image{
+    width: 25%;
+    float: left;
+    margin: auto 30px auto auto;
+}
+
+.bottom-container{
+    background-color:#a5b2c2;
+    padding: 30px;
+    line-height: 2.5em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;    
+    color: #ffffff;
+    font-size: 1em;
+    background: #a5b2c2;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: grey;
+    text-decoration: none;
+  }
+
+  .footer{
+      font-size: 0.8em;
+  }
