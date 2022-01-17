@@ -17,12 +17,12 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #a5b2c2;
-    margin: 100px 0 auto 0;
+    margin: 50px auto 20px auto;
 }
 
 h3{
     color: #a5b2c2;
-    margin: 100px auto 20px auto;
+    margin: 50px auto 20px auto;
 }
 
 p {
@@ -33,10 +33,11 @@ p {
 }
 
 hr{
-    margin-top: 50px;
+    margin: 50px auto 0 auto;
     width: 5%;
     border-top: dotted 5px;
     color: #a5b2c2;
+    clear: both;
 }
 
 a{
@@ -77,6 +78,10 @@ a:hover{
     margin: 50px auto 50px auto;
 }
 
+.profile-img{
+    width: 20%;
+}
+
 .bottom-heart {
     position: absolute;
     left: 300px;
@@ -87,11 +92,6 @@ a:hover{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-}
-
-
-.profile-img{
-    width: 25%;
 }
 
 .napping-img{
@@ -112,14 +112,9 @@ a:hover{
     margin: auto 30px auto auto;
 }
 
-.lower-line{
-    margin-top: 250px;
-}
-
 .bottom-container{
     background-color:#a5b2c2;
     padding: 30px;
-    line-height: 2.5em;
 }
 
 .btn {
