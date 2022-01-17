@@ -17,7 +17,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #a5b2c2;
-    margin: 50px auto auto auto;
+    margin: 50px 0 auto 0;
 }
 
 h3{
@@ -33,6 +33,7 @@ p {
 }
 
 hr{
+    margin: auto;
     width: 5%;
     border-top: dotted 5px;
     color: #a5b2c2;
@@ -63,7 +64,7 @@ a:hover{
 }
 
 .middle-container {
-    margin: 100px auto 100px auto;
+    margin: 100px 0;
 }
 
 .top-heart{
